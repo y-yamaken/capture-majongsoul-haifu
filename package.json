@@ -1,0 +1,21 @@
+{
+  "name": "mahjong-soul-websocket-capture",
+  "version": "1.0.0",
+  "description": "雀魂の牌譜URLからWebSocketメッセージをキャプチャするツール",
+  "main": "capture.js",
+  "type": "module",
+  "scripts": {
+    "start": "node capture.js"
+  },
+  "keywords": [
+    "mahjong-soul",
+    "websocket",
+    "capture"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.6.0",
+    "playwright": "^1.40.0"
+  }
+}
